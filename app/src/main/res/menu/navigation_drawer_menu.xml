@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/FoodMenu"
+        android:icon="@drawable/menufood"
+        android:title="FOOD MENU">option1
+    </item>
+    <item
+        android:id="@+id/PoolMenu"
+        android:icon="@drawable/gamepool"
+        android:title="RESTUARANT VIEW">option2
+    </item>
+    <item
+        android:id="@+id/PhotoGallery"
+        android:icon="@drawable/photo"
+        android:title="PHOTO GALLERY">option3
+    </item>
+    <item
+        android:id="@+id/Location"
+        android:icon="@drawable/map"
+        android:title="LOCATION">option4
+    </item>
+        <item
+            android:id="@+id/ContactUs"
+            android:icon="@drawable/contact_us"
+            android:title="CONTACT US">option4
+        </item>
+        <item
+            android:id="@+id/DeveloperInfo"
+            android:icon="@drawable/devlop"
+            android:title="DEVELOPER INFO">option4
+        </item>
+
+    </group>
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_food_description_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#333333"
+    android:padding="5dp"
+    tools:context="demo.restaurant.ingeniumbd.demorestaurant.UI.FoodDescription_Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/foodimage"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burger_item_1"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maxican Cheese Buger"
+        android:textColor="@android:color/white"
+        android:textSize="33sp"
+        android:id="@+id/foodtitle"
+        android:textStyle="bold|italic"
+        android:paddingLeft="5dp"
+        android:backgroundTintMode="add"
+        android:layout_marginTop="5dp"
+        android:background="#B2454545"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="19dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2454545"
+        android:layout_above="@+id/foodprice"
+        android:text="this is not an ordinary burger you always eat it is a special burger."
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:paddingLeft="5dp"
+        android:id="@+id/fooddescription"
+
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:paddingLeft="5dp"
+        android:background="#99C51515"
+        android:id="@+id/foodprice"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"/>
+
+
+</RelativeLayout>

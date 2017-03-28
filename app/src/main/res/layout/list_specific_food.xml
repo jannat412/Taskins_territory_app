@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:padding="5dp"
+    android:id="@+id/count_item_root_food"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/burger_item_1"
+            android:id="@+id/Specific_Food_Image" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:text="Mexican Burger"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:textSize="30sp"
+        android:id="@+id/Specific_Food_Title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
+        android:textStyle="bold|italic"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:text="Price: "
+        android:id="@+id/Specific_Food_Price" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="#1A1919"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mainpageimage"
+            android:id="@+id/imageView2" />
+
+        <TextView
+            android:text="START YOUR ORDER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textSize="25sp"
+            android:background="#B2454545"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_weight="0.07"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/rec_list"
+       android:clipToPadding="true"
+       android:scrollbars="vertical">
+
+
+   </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

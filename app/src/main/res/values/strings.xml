@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Oliver\'S Lounge</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="contact">Mobile NO:01684133348</string>
+    <string name="email">email: taskinsterritory@gmail.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="Lines">
+        <item>Red Line</item>
+        <item>Blue Line</item>
+        <item>Orange Line</item>
+        <item>Green Line</item>
+        <item>Brown Line</item>
+        <item>Purple Line</item>
+        <item>Pink Line</item>
+        <item>Yellow Line</item>
+    </string-array>
+
+    <string-array name="Burger_title">
+        <item>Mexican Burger</item>
+        <item>Chicken Cheese Burger</item>
+        <item>Beef Burger</item>
+        <item>Special Burger</item>
+    </string-array>
+
+    <string-array name="Sandwich_title">
+        <item>Mexican Sandwich</item>
+        <item>Chicken Cheese Sandwich</item>
+        <item>Beef Sandwich</item>
+        <item>Special Sandwich</item>
+    </string-array>
+
+    <string-array name="Pizza_title">
+        <item>Mexican Pizza</item>
+        <item>Chicken Cheese Pizza</item>
+        <item>Beef Pizza</item>
+        <item>Special Pizza</item>
+    </string-array>
+
+    <string-array name="HotDog_title">
+        <item> Mexican HotDog</item>
+        <item>Chicken Cheese HotDog</item>
+        <item>Beef HotDog</item>
+        <item>Special HotDog</item>
+    </string-array>
+
+    <string-array name="Roll_title">
+        <item>Mexican Roll</item>
+        <item>Chicken Cheese Roll</item>
+        <item>Beef Roll</item>
+        <item>Special Roll</item>
+    </string-array>
+
+    <string-array name="Cake_title">
+        <item>Mexican Cake</item>
+        <item>Chicken Cheese Cake</item>
+        <item>Beef Cake</item>
+        <item>Special Cake</item>
+    </string-array>
+
+
+    <string-array name="Burger_Description">this is not an ordinary burger you always eat it is a
+        special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+    </string-array>
+
+    <string-array name="Sandwich_Description">this is not an ordinary burger you always eat it is a
+        special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+    </string-array>
+
+    <string-array name="Pizza_Description">
+        this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+    </string-array>
+
+    <string-array name="HotDog_Description">
+        this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+    </string-array>
+
+    <string-array name="Roll_Description">
+        this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+    </string-array>
+
+    <string-array name="Cake_Description">
+        this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+        ,this is not an ordinary burger you always eat it is a special burger.
+    </string-array>
+
+
+</resources>

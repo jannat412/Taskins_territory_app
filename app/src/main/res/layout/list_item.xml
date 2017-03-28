@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/count_item_root"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="180dp"
+
+
+    android:gravity="center_vertical|left">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3.0dp"
+            android:paddingRight="3.0dp"
+            >
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview_icon"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/burger"
+            android:foregroundGravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="robin son"
+            android:layout_weight="1"
+            android:background="#99C51515"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

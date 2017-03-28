@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fragment1"
+        android:title="Food Menu"></item>
+    <item
+        android:id="@+id/fragment2"
+        android:title="Restuarant View">option
+    </item>
+    <item
+        android:id="@+id/fragment3"
+        android:title="Photo Gallery">option
+    </item>
+    <item
+        android:id="@+id/fragment4"
+        android:title="Contact Us">option
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit">option
+    </item>
+
+
+</menu>
